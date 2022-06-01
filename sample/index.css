@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    color: blue;
+}
+
+.contents {
+   display: flex;
+   flex-direction: column;
+   color: white;
+}
+
+.contents a {
+    color: green;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: "50px";
+    height: "50px";
+}
+
+#whoAmI {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: azure;
+}
+
+.back {
+    border: aliceblue;
+}
